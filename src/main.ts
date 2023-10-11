@@ -6,7 +6,7 @@ import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 
 const app = createApp(App)
-
+console.log(import.meta.env)
 app.use(ElementPlus, {
     locale: zhCn
 })
